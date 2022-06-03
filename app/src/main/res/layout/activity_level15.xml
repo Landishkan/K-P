@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/levelmountain"
+    tools:context=".Level15">
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="209dp"
+        android:layout_height="114dp"
+        android:layout_marginStart="101dp"
+        android:layout_marginTop="130dp"
+        android:layout_marginEnd="112dp"
+        android:layout_marginBottom="135dp"
+        android:text="@string/level15"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/button43"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button43"
+        android:layout_width="150dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="118dp"
+        android:layout_marginTop="338dp"
+        android:layout_marginEnd="130dp"
+        android:layout_marginBottom="331dp"
+        android:onClick="End"
+        android:backgroundTint="#00FFFFFF"
+        android:textColor="@color/black"
+        android:text="@string/ferrum"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button45"
+        android:layout_width="147dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="125dp"
+        android:layout_marginTop="34dp"
+        android:layout_marginEnd="139dp"
+        android:layout_marginBottom="234dp"
+        android:backgroundTint="#00FFFFFF"
+        android:onClick="Go"
+        android:text="@string/way"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button43"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/button46"
+        android:layout_width="145dp"
+        android:layout_height="56dp"
+        android:textColor="@color/black"
+        android:layout_marginStart="133dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="133dp"
+        android:layout_marginBottom="150dp"
+        android:onClick="End"
+        android:backgroundTint="#00FFFFFF"
+        android:text="@string/rivers"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button45" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

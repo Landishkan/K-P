@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/icon"
+    tools:context=".ListLevels">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-114dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/button125"
+                android:layout_width="139dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#00FFFFFF"
+                android:onClick="One"
+                android:text="@string/one" />
+
+            <Button
+                android:id="@+id/button1242"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#00FFFFFF"
+                android:onClick="Two"
+                android:text="@string/two" />
+
+            <Button
+                android:id="@+id/button1232"
+                android:layout_width="143dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#00FFFFFF"
+                android:onClick="Three"
+                android:text="@string/three" />
+
+            <Button
+                android:id="@+id/button2222"
+                android:layout_width="142dp"
+                android:onClick="Four"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#00FFFFFF"
+                android:text="@string/four" />
+
+            <Button
+                android:id="@+id/button2111"
+                android:onClick="Five"
+                android:layout_width="144dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#00FFFFFF"
+                android:text="@string/five" />
+
+            <Button
+                android:id="@+id/button2000"
+                android:layout_width="142dp"
+                android:onClick="Six"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#00FFFFFF"
+                android:text="@string/six" />
+
+            <Button
+                android:id="@+id/button1900"
+                android:layout_width="147dp"
+                android:onClick="Seven"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#00FFFFFF"
+                android:text="@string/seven" />
+
+            <Button
+                android:id="@+id/button1800"
+                android:onClick="Eight"
+                android:layout_width="144dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#00FFFFFF"
+                android:text="@string/eight" />
+
+            <Button
+                android:id="@+id/button1700"
+                android:layout_width="148dp"
+                android:onClick="Nine"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#00FFFFFF"
+                android:text="@string/nine" />
+
+            <Button
+                android:id="@+id/button1600"
+                android:layout_width="144dp"
+                android:onClick="Ten"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#00FFFFFF"
+                android:text="@string/ten" />
+
+            <Button
+                android:id="@+id/button1500"
+                android:layout_width="146dp"
+                android:onClick="Eleven"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#00FFFFFF"
+                android:text="@string/eleven" />
+
+            <Button
+                android:id="@+id/button1300"
+                android:onClick="Twelve"
+                android:layout_width="146dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#00FFFFFF"
+                android:text="@string/twelve" />
+
+            <Button
+                android:id="@+id/button1400"
+                android:onClick="Thirteen"
+                android:layout_width="148dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#00FFFFFF"
+                android:text="@string/_13" />
+
+            <Button
+                android:id="@+id/button1200"
+                android:onClick="Fourteen"
+                android:layout_width="144dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#00FFFFFF"
+                android:text="@string/_14" />
+
+            <Button
+                android:id="@+id/button1100"
+                android:onClick="Fifteen"
+                android:layout_width="144dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#00FFFFFF"
+                android:text="@string/_15" />
+
+            <Button
+                android:id="@+id/button1000"
+                android:onClick="Sixteen"
+                android:layout_width="146dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#00FFFFFF"
+                android:text="@string/_16" />
+
+            <Button
+                android:id="@+id/button1001"
+                android:onClick="Seventeen"
+                android:layout_width="146dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#00FFFFFF"
+                android:text="@string/_17" />
+
+            <Button
+                android:id="@+id/button1002"
+                android:onClick="Eighteen"
+                android:layout_width="146dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#00FFFFFF"
+                android:text="@string/_18" />
+            <Button
+                android:id="@+id/button1003"
+                android:onClick="Nineteen"
+                android:layout_width="146dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#00FFFFFF"
+                android:text="@string/_19" />
+            <Button
+                android:id="@+id/button1005"
+                android:onClick="Twenty"
+                android:layout_width="146dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#00FFFFFF"
+                android:text="@string/twenty" />
+            <Button
+                android:id="@+id/button1004"
+                android:onClick="Twentyone"
+                android:layout_width="146dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#00FFFFFF"
+                android:text="@string/_21" />
+            <Button
+                android:id="@+id/button1006"
+                android:onClick="Twentytwo"
+                android:layout_width="146dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#00FFFFFF"
+                android:text="@string/_22" />
+            <Button
+                android:id="@+id/button1007"
+                android:onClick="Twentythree"
+                android:layout_width="146dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#00FFFFFF"
+                android:text="@string/_23" />
+            <Button
+                android:id="@+id/button1008"
+                android:layout_width="146dp"
+                android:onClick="Twentyfour"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#00FFFFFF"
+                android:text="@string/_24" />
+            <Button
+                android:id="@+id/button1009"
+                android:onClick="Twentyfive"
+                android:layout_width="146dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#00FFFFFF"
+                android:text="@string/_25" />
+            <Button
+                android:id="@+id/button10010"
+                android:layout_width="146dp"
+                android:onClick="Twentysix"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#00FFFFFF"
+                android:text="@string/_26" />
+            <Button
+                android:id="@+id/button1011"
+                android:layout_width="146dp"
+                android:onClick="Twentyseven"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#00FFFFFF"
+                android:text="@string/_27" />
+            <Button
+                android:id="@+id/button1012"
+                android:onClick="Twentyeight"
+                android:layout_width="146dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#00FFFFFF"
+                android:text="@string/twentyeight" />
+            <Button
+                android:id="@+id/button1013"
+                android:layout_width="146dp"
+                android:onClick="Twentynine"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#00FFFFFF"
+                android:text="@string/_29" />
+            <Button
+                android:id="@+id/button1014"
+                android:layout_width="146dp"
+                android:onClick="Thirty"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#00FFFFFF"
+                android:text="@string/_30" />
+            <Button
+                android:id="@+id/button1015"
+                android:onClick="Thirtyone"
+                android:layout_width="146dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#00FFFFFF"
+                android:text="@string/_31" />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

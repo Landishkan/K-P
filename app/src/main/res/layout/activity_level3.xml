@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/levelforest"
+    tools:context=".Level3">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="199dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="101dp"
+        android:layout_marginTop="130dp"
+        android:layout_marginEnd="112dp"
+        android:layout_marginBottom="103dp"
+        android:text="@string/level3"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/button3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="161dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="125dp"
+        android:layout_marginTop="333dp"
+        android:layout_marginEnd="125dp"
+        android:layout_marginBottom="333dp"
+        android:onClick="Go"
+        android:text="@string/yes"
+        android:backgroundTint="#00FFFFFF"
+        android:textColor="#F5F5F5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="164dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="126dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="121dp"
+        android:layout_marginBottom="253dp"
+        android:onClick="End"
+        android:text="@string/no"
+        android:backgroundTint="#00FFFFFF"
+        android:textColor="#F5F5F5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button3" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
